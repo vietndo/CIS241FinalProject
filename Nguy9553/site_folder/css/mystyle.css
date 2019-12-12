@@ -1,0 +1,134 @@
+body
+{
+background-color:silver;
+}
+
+nav
+{
+text-align: center;
+}
+ 
+h1
+{
+font-weight: bold;
+color: black;
+font-size: 250%;
+margin-bottom: 25px;
+margin-top:25px;
+font-family: "Verdana", Times, serif;
+text-align: center;
+}
+
+h2
+{
+font-weight: bold;
+color: black;
+font-size: 200%;
+margin-bottom: 25px;
+margin-top:25px;
+font-family: "Verdana", Times, serif;
+text-align: center;
+}
+
+h3
+{
+font-weight: bold;
+color: black;
+font-size: 125%;
+margin-bottom: 10px;
+margin-top:10px;
+font-family: "Verdana", Times, serif;
+text-align: left;
+margin-left: 5%;
+}
+
+h4
+{
+font-weight: bold;
+color: black;
+font-size: 110%;
+margin-bottom: 10px;
+margin-top:10px;
+font-family: "Arial Narrow", Times, serif;
+text-align: left;
+margin-left: 35%;
+}
+
+ul.navbar 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navbar
+{
+  float: center;
+  display: inline;
+}
+
+li.navbar a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Verdana", Times, serif;
+  display: inline-block;
+}
+
+
+li a:hover 
+{
+  background-color: grey;
+  color: white;
+}
+
+.active 
+{
+background-color: grey;
+}
+
+p 
+{
+color: black;
+font-size: 100%;
+margin-bottom: 1px;
+margin-top:10px;
+font-family: "Times New Roman", Times, serif;
+text-align: left;
+margin-left: 5%;
+margin-right: 5%;	
+}
+
+.page
+{
+background-color: white;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 2%;
+overflow: auto;
+}
+
+ul
+{ 
+margin-left: 5%;
+}
+
+table
+{
+width:90%; 
+margin-left: 5%;
+}
+
+tr
+{
+text-align:center;
+}
+
+
+
+

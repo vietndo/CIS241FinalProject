@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="author" content="Viet NguyenDo">
+	<meta name="keywords" content="Guestbook,Guest, Visitor">
+	<meta name="description" content="This is my Guestbook page.">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="NOINDEX,NOFOLLOW">
+	
+	<link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+
+	<style>
+	form
+	{
+	margin-left: 5%;
+	}
+	
+	img
+	{
+	border-style: solid;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	}
+	
+	</style>
+	<title>Guest Book - Viet NguyenDo</title>
+</head>
+
+<body>
+<div class="page">
+  <h1>Viet NguyenDo</h1>
+  <h2>Portfolio</h2> 
+  	<nav>
+		<ul class="navbar">
+			<li class="navbar"><a href="../html/home.html">Home</a></li>
+			<li class="navbar"><a href="../html/resume.html">Résumé</a></li>
+			<li class="navbar"><a href="../html/interests.html">Interests</a></li>
+			<li class="navbar"><a href="../html/reflections.html">Reflections</a></li>
+			<li class="navbar"><a class="active" href="../html/guestbook.html">Guestbook</a></li>
+		</ul>	
+	</nav>
+
+<h2 style="font-style: italic"> Thanks for Visiting my Portfolio! </h2>
+
+<img src="../images/guestbook.jpg" alt="Picture of Guestbook">
+
+<form
+	method="post"
+	action="http://ss1.ciwcertified.com/cgi-bin/process.pl"
+	>
+
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+
+Enter Your Portfolio/Website: <input type="text" name="portfolio" size="40" value="http://"/>
+
+<br/>
+<br/><br/>
+
+How did you find my website?
+<br/>
+<select name="website">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+</select>
+
+<br/>
+<br/>
+
+Comments:<br/>
+<textarea name="comments" cols="50" rows="6">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+
+<input type="submit" value="Submit"/>
+<input type="reset"/>
+
+</form>
+
+<br/>
+<br/>
+
+</div>
+</body>
+</html>
